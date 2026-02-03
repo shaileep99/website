@@ -1,0 +1,65 @@
+.f1-footer {
+  background-color: #1E1E1E; 
+  color: #FAFAF8; 
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  border-top: 4px solid #FF7A1A; 
+
+  .footer-main-content {
+    padding: 30px 10%; // Reduced padding from 60px to 30px to make it thinner
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-logo {
+      font-weight: 800;
+      letter-spacing: 4px;
+      margin: 0;
+      font-size: 1.5rem; // Slightly smaller logo for a thinner look
+      span { color: #FF7A1A; }
+    }
+
+    .footer-tagline {
+      color: #6B7280;
+      font-size: 0.75rem; // Slightly smaller text
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: 20px;
+      a {
+        color: #FAFAF8;
+        transition: 0.3s;
+        &:hover { color: #FF7A1A; transform: translateY(-3px); }
+      }
+    }
+  }
+
+  .footer-bottom {
+    padding: 15px 10%; // Reduced padding from 20px to 15px
+    border-top: 1px solid rgba(107, 114, 128, 0.2);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6rem; // Slightly smaller font
+    font-weight: 700;
+    color: #6B7280;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    .p1 {
+      color: #FF7A1A;
+      font-weight: 900;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-main-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px; // Reduced gap for mobile
+    padding: 30px 5%;
+  }
+}
