@@ -83,7 +83,7 @@ function Main() {
           </p>
 
           <div className="hero-cta-group">
-            <button className="cta-button primary" onClick={() => window.open('/resume.pdf', '_blank')}>
+            <button className="cta-button primary" onClick={() => window.open('https://drive.google.com/file/d/19tfIql0IJ4M0dW883ecOrohs7_rpuKqA/view?usp=sharing')}>
               Download Resume
             </button>
             <button className="cta-button secondary" onClick={scrollToPitWall}>
