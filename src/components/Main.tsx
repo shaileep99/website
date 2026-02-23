@@ -1,11 +1,11 @@
 import React, { useRef, useState, useEffect } from "react";
 import '../assets/styles/Main.scss';
 
-const image1 = require('../assets/images/1.png');
-const image2 = require('../assets/images/2.png');
-const image3 = require('../assets/images/3.png');
-const image4 = require('../assets/images/4.png');
-const image5 = require('../assets/images/5.png');
+import image1 from '../assets/images/1.png';
+import image2 from '../assets/images/2.png';
+import image3 from '../assets/images/3.png';
+import image4 from '../assets/images/4.png';
+import image5 from '../assets/images/5.png';
 
 function Main() {
   const scrollRef = useRef<HTMLDivElement>(null);
